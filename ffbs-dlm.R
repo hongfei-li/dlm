@@ -3,8 +3,10 @@
 ################################################################################
 
 ## packages
-require(astsa)
-require(truncnorm)
+source("utils.R")
+need.packages(c("astsa", "truncnorm"))
+## require(astsa)
+## require(truncnorm)
 
 ###-- Notation --###
 ## y(t) = x(t) + v(t); v(t) ~ iid N(0,V)
